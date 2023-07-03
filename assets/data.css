@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    font-size: 3em;
+}
+
+h2 {
+    color: darkred;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.graph-container {
+    width: 80%;
+    margin: auto;
+}
