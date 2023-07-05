@@ -1,10 +1,31 @@
+
+
+/* Modify the appearance of all tabs */
+.dcc-tab {
+    color: #ced2cc;
+    background-color: #23282D !important; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Modify the appearance of the selected tab */
+.dcc-tab--selected {
+    color: #ffffff;
+    background-color: #2c3e50 !important;
+}
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #23282D;
+    color: #ffffff;
 }
 
 h1 {
-    color: navy;
+    color: #ced2cc;
     font-size: 3em;
+    background-color: #23282D;
 }
 
 h2 {
@@ -13,10 +34,11 @@ h2 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 18px;
 }
 
 .graph-container {
     width: 80%;
     margin: auto;
 }
+
