@@ -1,20 +1,5 @@
 
 
-/* Modify the appearance of all tabs */
-.dcc-tab {
-    color: #ced2cc;
-    background-color: #23282D !important; 
-    padding: 10px;
-    border-radius: 5px;
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-/* Modify the appearance of the selected tab */
-.dcc-tab--selected {
-    color: #ffffff;
-    background-color: #2c3e50 !important;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -29,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: darkred;
+    color: #ffffff;
     font-size: 2em;
 }
 
@@ -40,5 +25,6 @@ p {
 .graph-container {
     width: 80%;
     margin: auto;
+    background-color: #23282D;
 }
 
