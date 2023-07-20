@@ -1,6 +1,19 @@
 
+.dcc-tab {
+    background-color: #23282D;  /* The color of the non-selected tab */
+}
 
+.dcc-tab--selected {
+    background-color: #23282D;  /* The color of the selected tab */
+}
 
+.tab-content {
+    background-color: #23282D;  /* The color of the tab content */
+}
+table{
+    background-color: #23282D;
+    color: #ffffff;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #23282D;
@@ -25,6 +38,5 @@ p {
 .graph-container {
     width: 80%;
     margin: auto;
-    background-color: #23282D;
 }
 
